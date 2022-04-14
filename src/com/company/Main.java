@@ -28,9 +28,9 @@ public class Main {
         int[] i = {1, 2, 3};
         for (int i1 = i.length -1; i1 >= 0; i1--) {
             if (i1 > i.length - 1)
-                System.out.println(i[i1] + "; ");
+                System.out.print(i[i1] + "; ");
             else
-                System.out.println(i[i1]);
+                System.out.print(i[i1]);
         }
         float [] f = {1.57f, 7.654f, 9.986f};
         for (int i0 = i.length - 1; i0 >= 0; i0--) {
@@ -42,9 +42,9 @@ public class Main {
         long[] l = {1l, 2l, 3l, 4l, 5l};
         for (int i2 = l.length -1; i2 >= 0; i2--) {
             if (i2 == l.length - 0)
-                System.out.println(l[i2]);
+                System.out.print(l[i2]);
             else
-                System.out.println(l[i2] + " ");
+                System.out.print(l[i2] + " ");
         }
 
         //Задание 4
@@ -52,7 +52,7 @@ public class Main {
         for (int r = 0; r < intArray.length; r++) {
             if (intArray[r] % 2 !=0) {
                 intArray[r] = intArray [r] +1;
-            } else if (intArray[r] % 2==0) {
+            }                                   {
             }
             System.out.println(intArray[r]+ ", ");
 
