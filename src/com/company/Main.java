@@ -52,7 +52,7 @@ public class Main {
         for (int r = 0; r < intArray.length; r++) {
             if (intArray[r] % 2 !=0) {
                 intArray[r] = intArray [r] +1;
-            }                                     {
+            }                                   {
             }
             System.out.println(intArray[r]+ ", ");
 
